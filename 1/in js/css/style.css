@@ -1,0 +1,48 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: Arial;
+	font-size: 25px;
+}
+span{
+	display: block;
+}
+
+.container{
+	min-width: 960px;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.wrapper{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+}
+#expression, #calc{
+	padding: 5px 15px;
+	font-size: 20px;
+	border: 1px solid #03C9A9;
+	outline: none;
+}
+#expression:*, #calc:*{
+	outline: none;
+}
+
+#expression{
+	border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px;
+}
+
+#calc{
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+	background-color: #03C9A9;
+	cursor: pointer;
+}

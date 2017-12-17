@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<tree>
+    <node name="root">
+        <parent>0</parent>
+        <value>2017</value>
+    </node>
+
+    <node name="n1">
+        <parent>root</parent>
+        <value>15</value>
+    </node>
+
+    <node name="n2">
+        <parent>root</parent>
+        <value>32</value>
+    </node>
+
+    <node name="n3">
+        <parent>n1</parent>
+        <value>81</value>
+    </node>
+
+    <node name="n4">
+        <parent>n2</parent>
+        <value>74</value>
+    </node>
+
+    <node name="n5">
+        <parent>n2</parent>
+        <value>5.2</value>
+    </node>
+
+    <node name="n6">
+        <parent>n3</parent>
+        <value>3.14</value>
+    </node>
+
+    <node name="n7">
+        <parent>n4</parent>
+        <value>6.28</value>
+    </node>
+
+    <node name="n8">
+        <parent>n7</parent>
+        <value>7</value>
+    </node>
+</tree>
